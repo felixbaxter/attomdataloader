@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="attomdataloader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BatchSize" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="NotifyAfter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="RootFolderExt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\RealtyTrac\Incoming\</Value>
+    </Setting>
+    <Setting Name="TaxAssessorPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TaxAssessor_</Value>
+    </Setting>
+    <Setting Name="ForeclosurePrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Foreclosure_</Value>
+    </Setting>
+    <Setting Name="RecorderPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Recorder_</Value>
+    </Setting>
+    <Setting Name="TaxAssessorTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">realtytrac.dbo.TaxAssessorImport</Value>
+    </Setting>
+    <Setting Name="ForeclosureTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">realtytrac.dbo.ForeclosureImport</Value>
+    </Setting>
+    <Setting Name="RecorderTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">realtytrac.dbo.RecorderImport</Value>
+    </Setting>
+    <Setting Name="FTPAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sftp1.realtytrac.com</Value>
+    </Setting>
+    <Setting Name="FTPPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">22</Value>
+    </Setting>
+    <Setting Name="FTPUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Reipro</Value>
+    </Setting>
+    <Setting Name="FTPPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GPazYk7!</Value>
+    </Setting>
+    <Setting Name="FTPDownloadDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">outgoing</Value>
+    </Setting>
+    <Setting Name="AVMTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">realtytrac.dbo.AVMEquityImport</Value>
+    </Setting>
+    <Setting Name="AVMPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AVM_</Value>
+    </Setting>
+    <Setting Name="SMTPAPIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">key-897c027bf628e5c669c10d9f64ae7908</Value>
+    </Setting>
+    <Setting Name="SshHostKeyFingerprint" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ssh-rsa 2048 01:8e:c9:85:ba:37:df:29:60:66:eb:af:be:b2:b0:fd</Value>
+    </Setting>
+    <Setting Name="GlobalLogFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\RealtyTrac\Incoming\GlobalLogs</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
